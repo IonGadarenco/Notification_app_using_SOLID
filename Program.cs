@@ -22,7 +22,7 @@
 
             NotificationService notificationServiceEmail = new NotificationService(emailNotification);
             notificationServiceEmail.SendNotification(users, "mihai@gmail.com", "ion@gmail.com", "Hi, user with email = ion@gmail.com!");
-            notificationServiceEmail.SendNotification(users, "ion@gmail.com", "dana@gmail.com", "Hi, user with Phone = dana@gmail.com!");
+            notificationServiceEmail.SendNotification(users, "ion@gmail.com", "dana@gmail.com", "Hi, user with email = dana@gmail.com!");
             notificationServiceEmail.GetMessages();
 
             PushNotification pushNotification = new PushNotification();
